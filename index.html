@@ -13,19 +13,21 @@
     </header>
     <section> 
         <div class="barras-rgb">
-            <input type="range" id="R">
-            <input type="range" id="G">
-            <input type="range" id="B">
+            <input type="range" id="R" onchange="handleColorChange(event, 'subpixel-R')">
+            <input type="range" id="G" onchange="handleColorChange(event, 'subpixel-G')">
+            <input type="range" id="B" onchange="handleColorChange(event, 'subpixel-B')">
         </div>
         <div class="subpixel">
-            <div class="R"></div>
-            <div class="G"></div>
-            <div class="B"></div>
+            <div class="R" id="subpixel-R"></div>
+            <div class="G" id="subpixel-G"></div>
+            <div class="B" id="subpixel-B"></div>
 
         </div>
         <div>
-            <div id="resultado"></div>
+            <div id="pixel"></div>
         </div>
     </section>
+    <script src="main.js"></script>
+
 </body>
 </html>

@@ -73,13 +73,13 @@ section div {
     }
 
     #R::-webkit-slider-thumb  {
-        box-shadow: -150px 0 0 150px #ec0f0f; 
+        box-shadow: -200px 0 0 200px rgb(255, 0,0); 
     }
     #G::-webkit-slider-thumb  {
-        box-shadow: -150px 0 0 150px #02ff02; 
+        box-shadow: -200px 0 0 200px rgb(0, 255, 0); 
     }
     #B::-webkit-slider-thumb  {
-        box-shadow: -150px 0 0 150px #0400ff; 
+        box-shadow: -200px 0 0 200px rgb(0,0,255); 
     }
 }
 
@@ -106,16 +106,16 @@ background-color: #9a905d;
 
 }
 .R{ 
-    background-color: #ec0f0f;
+    background-color: rgb(255, 0,0);
 }
 .G{
-    background-color: #02ff02;
+    background-color: rgb(0, 255, 0);
 }
 .B{
-    background-color: #0400ff;
+    background-color: rgb(0,0,255);
 }
 
-#resultado{
-    background-color: #02ff02;
+#pixel{
+    background-color: rgb(127.5,127.5,127.5);
     height: 100%;
 }
