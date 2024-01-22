@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0DAC6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+    padding-inline: 50px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+h2 {
+    text-align: center;
+}
+
+section { 
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+section div {
+    background-color: #b3ae8a;
+    padding: 40px 20px;
+    width: 100%;
+}
+.barras-rgb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 5%;   
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        -webkit-appearance: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 30px;
+        -webkit-appearance: none;
+        color: #13bba4;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 15px;
+        -webkit-appearance: none;
+        height: 30px;
+        cursor: ew-resize;
+        background: #434343;
+    }
+
+    #R::-webkit-slider-thumb  {
+        box-shadow: -150px 0 0 150px #ec0f0f; 
+    }
+    #G::-webkit-slider-thumb  {
+        box-shadow: -150px 0 0 150px #02ff02; 
+    }
+    #B::-webkit-slider-thumb  {
+        box-shadow: -150px 0 0 150px #0400ff; 
+    }
+}
+
+/* FF */
+input[type="range"]::-moz-range-progress {
+    background-color: #43e5f7; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: #43e5f7; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #9a905d;
+}
+
+
+/* Subpixels */
+.subpixel{
+    display: flex;
+    flex-direction: row
+
+}
+.R{ 
+    background-color: #ec0f0f;
+}
+.G{
+    background-color: #02ff02;
+}
+.B{
+    background-color: #0400ff;
+}
+
+#resultado{
+    background-color: #02ff02;
+    height: 100%;
+}
