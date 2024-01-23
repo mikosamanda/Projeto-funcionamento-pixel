@@ -73,13 +73,13 @@ section div {
     }
 
     #R::-webkit-slider-thumb  {
-        box-shadow: -200px 0 0 200px rgb(255, 0,0); 
+        box-shadow: -800px 0 0 800px rgb(255, 0,0); 
     }
     #G::-webkit-slider-thumb  {
-        box-shadow: -200px 0 0 200px rgb(0, 255, 0); 
+        box-shadow: -800px 0 0 800px rgb(0, 255, 0); 
     }
     #B::-webkit-slider-thumb  {
-        box-shadow: -200px 0 0 200px rgb(0,0,255); 
+        box-shadow: -800px 0 0 800px rgb(0,0,255); 
     }
 }
 
